@@ -1,0 +1,11 @@
+ 1class Student(object):
+ 2   '''一个学生的类'''
+ 3   __student_num =0
+ 4   def __init__(self,name,school,grade,course=[],course_grade={}):
+ 5      self.__name = name
+ 6        self.school = school
+ 7        self.grade =grade
+ 8        self.course = course
+ 9        self.course_grade = course_grade
+10        Student.__student_num+=1
+11p = Student()

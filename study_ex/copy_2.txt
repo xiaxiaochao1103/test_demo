@@ -1,0 +1,11 @@
+lass Student(object):
+  '''一个学生的类'''
+  __student_num =0
+  def __init__(self,name,school,grade,course=[],course_grade={}):
+     self.__name = name
+       self.school = school
+       self.grade =grade
+       self.course = course
+       self.course_grade = course_grade
+       Student.__student_num+=1
+ = Student()
